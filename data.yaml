@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Bajaj', 'Bus', 'Mobil', 'Motor', 'Truk', 'plat']
+
+roboflow:
+  workspace: fari-mryma
+  project: plat-nomor-s2hcb
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fari-mryma/plat-nomor-s2hcb/dataset/4
